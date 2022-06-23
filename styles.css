@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position:sticky;
 }
 .header_logo {
     color:#F9FAF8 ;
@@ -16,7 +15,7 @@
     margin-left: 10%;
 }
 .header_links_container {
-    margin-right:10%;
+    margin-right:5%;
     width:30%;
  
 }
@@ -53,14 +52,15 @@ a {
   }
 .hero_image {
     display: flex;
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 250px;
     border: 4px solid darkslategray;
     background: rgb(168, 183, 189);
     align-self: center;
     justify-content: center;
     align-items:center;
-    margin: 10%;
+    margin-right: 5%;
+    margin-bottom:5%;
   }
 .title {
     background-color:#1F2937;
@@ -70,11 +70,13 @@ a {
     font-weight:extra-bold;
     font-family: sans-serif;
     display: flex;
+    margin-bottom: 2%;
   }
 .subtext {
       color:#E5E7EB;
       font-size: 18px;
       font-family: sans-serif;
+      margin-bottom: 2%;
 
   }
 .sign_up_button {
@@ -169,6 +171,7 @@ a {
       font: 36px bold;
       font-family: sans-serif;
       padding-left:20%;
+      margin-top: 2%;
     
   }
   .call_to_action_section {
@@ -182,6 +185,48 @@ a {
     gap: 50px;
   }
 
+  .call_to_action_container {
+    width: 50%;
+    height: 50%;
+    border: 2px ;
+    border-radius: 10px;
+    background:#3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  } 
+
+  .call_to_action_left {
+      margin-left:8%;
+  }
+
+  .call_to_action_header {
+      font-size:24px;
+      color:white;
+      font-family:sans-serif;
+      font-weight:bold;
+  }
+
+  .call_to_action_subtext{
+    color:white;
+    font-family: sans-serif;
+    font-size:18px;
+  }
+  .call_button {
+    margin-top:1%;
+    background-color:#3882F6;
+    color: white;
+    padding-right: 5%;
+    padding-left:5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    border-radius: 8px;
+    border-color:white;
+    margin-right:10%;
+    font-weight:bold;
+    font-size:18px;
+  }
 
   .copyright_section {
     height: 50px;
@@ -191,15 +236,9 @@ a {
     display: flex;
     align-items:center;
     justify-content:center;
+    font-family: sans-serif;
   }
 
-  .call_to_action_container {
-    width: 50%;
-    height: 50%;
-    border: 2px solid darkslategray;
-    border-radius: 10px;
-    background: skyblue;
-  } 
   * {
       margin:0px;
   }
