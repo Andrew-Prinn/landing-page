@@ -2,7 +2,7 @@
 .header {
     height: 30px;
     padding: 16px;
-    background:#1F2937;
+    background: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,29 +42,25 @@ a {
 .hero {
     height: 300px;
     padding: 16px;
-    background:#1F2937;
+    background: white;
     display: flex;
   }
 .hero_container_1 {
       margin-left: 10%;
       margin-top:5%;
+      max-width: 50%;
     
   }
-.hero_image {
-    display: flex;
-    width: 700px;
-    height: 250px;
-    border: 4px solid darkslategray;
-    background: rgb(168, 183, 189);
-    align-self: center;
-    justify-content: center;
-    align-items:center;
-    margin-right: 5%;
-    margin-bottom:5%;
-  }
+
+
+
+  .container img {
+    width: 100%;
+    height: 100%;
+}
 .title {
-    background-color:#1F2937;
-    color:#F9FAF8;
+    background-color:white;
+    color:black;
     text-align:left;
     font-size: 48px;
     font-weight:extra-bold;
@@ -73,7 +69,7 @@ a {
     margin-bottom: 2%;
   }
 .subtext {
-      color:#E5E7EB;
+      color:gray;
       font-size: 18px;
       font-family: sans-serif;
       margin-bottom: 2%;
@@ -94,7 +90,7 @@ a {
 .information_section {
     height: 400px;
     padding: 16px;
-    background:white;
+    background:lightgray;
   
   }
 .information_header {
@@ -131,16 +127,16 @@ a {
   .item {
     width: 60px;
     height: 60px;
-    border: 4px solid darkslategray;
+    border: 4px solid black;
     background: skyblue;
   } 
 
   .thumbnail {
     width: 150px;
     height: 150px;
-    border: 4px solid #3882F6;
+    border: 4px solid black;
     border-radius: 10px;
-    background: skyblue;
+    background: black;
     margin-bottom: 8px;
   }
 
@@ -217,21 +213,21 @@ a {
     margin-top:1%;
     background-color:#3882F6;
     color: white;
-    padding-right: 5%;
-    padding-left:5%;
     padding-top:2.5%;
     padding-bottom:2.5%;
     border-radius: 8px;
     border-color:white;
-    margin-right:10%;
+    margin-right:5%;
     font-weight:bold;
     font-size:18px;
+    align-items:baseline;
+    
   }
 
   .copyright_section {
     height: 50px;
     padding: 16px;
-    background:#1F2937;
+    background:black;
     color: #F9FAF8;
     display: flex;
     align-items:center;
