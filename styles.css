@@ -1,5 +1,6 @@
-/* header*/
-.header {
+div.header {
+    position: sticky;
+    top: 0;
     height: 30px;
     padding: 16px;
     background: black;
